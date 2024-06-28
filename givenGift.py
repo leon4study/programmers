@@ -6,7 +6,16 @@ friends_len = len(friends)
 
 friends = ["muzi", "ryan", "frodo", "neo"]
 friends_len = len(friends)
-gifts = ["muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"]
+gifts = [
+    "muzi frodo",
+    "muzi frodo",
+    "ryan muzi",
+    "ryan muzi",
+    "ryan muzi",
+    "frodo muzi",
+    "frodo ryan",
+    "neo muzi",
+]
 
 friend_matrix = [[0] * friends_len for _ in range(friends_len)]
 
